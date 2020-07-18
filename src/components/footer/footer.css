@@ -1,0 +1,16 @@
+.footer-container {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 3vmin;
+    border-top-left-radius: 1vmin 1vmin 1vmin 1vmin/1vmin 1vmin 1vmin 1vmin;
+    border-top-right-radius: 10vmin 10vmin 10vmin 10vmin/10vmin 10vmin 10vmin 10vmin;
+    /* border-radius: 50%; */
+    padding-bottom: 5vmin;
+}
+.footer-container a {
+    font-size: 5vmin;
+}
+.footer-container a:hover {
+    font-size: 5.5vmin;
+}

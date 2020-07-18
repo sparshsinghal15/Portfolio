@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fondamento&display=swap');
+
+.home-container {
+    color: white;
+    padding-top: 12vmin;
+}
+.title {
+    padding: 8vmin;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 17vmin;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+}
+h2 {
+    font-family: 'Fondamento', cursive;
+    font-size: 8vmin;
+    text-align: center;
+    margin-top: 15vmin;
+    font-weight: lighter;
+}
+.display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 8vmin 10vmin 8vmin;
+    text-align: center;
+}
+.descContainer {
+    width: 50%;
+}
+h3 {
+    font-size: 5vmin;
+    font-weight: 300;
+}
+p {
+    font-size: 3vmin;
+    font-weight: 100;
+    margin: 1vmin 0;
+}
+@media only screen and (max-width: 600px) {
+    .descContainer {
+        width: 100%;
+    }
+    .title {
+        width: 100%;
+    }
+  }
+
+.home-container .button {
+    font-size: 3vmin;
+    border: 1.5px solid white;
+    font-weight: 300;
+}
+.home-container .button:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 3vmin;
+    padding-left: 2.3vmin;
+    padding-right: 2.3vmin;
+}
